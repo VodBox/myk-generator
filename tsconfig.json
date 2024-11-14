@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"incremental": true,
+
+		"target": "ES2022",
+		"lib": ["ES2022", "DOM"],
+
+		"module": "ES2022",
+
+		"sourceMap": true,
+		"noEmit": true,
+
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+
+		"skipLibCheck": true,
+
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["src/*"]
+		}
+	}
+}
